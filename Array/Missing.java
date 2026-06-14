@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Missing {
     public static void main(String[] args) {
+        System.out.println("HII");
+        
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter  the size of array: ");
         int n = sc.nextInt();
@@ -27,7 +29,8 @@ public class Missing {
         }
              
         return sum-Asum;    
-        
+       
     
 }
+ 
 }
